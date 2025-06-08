@@ -70,11 +70,54 @@
       <h3>Backend Expertise</h3>
       <p>Skilled in <em>PHP</em>, <em>Laravel</em>, <em>RESTful API</em> development, and database management.</p>
       <div class="progress-bar">
-        <div class="progress" style="--progress: 80%;">80%</div>
+        <div class="progress" style="--progress: 60%;">80%</div>
       </div>
       <button class="toggle-btn">Learn More</button>
       <div class="more-info">
         <p>Building secure and efficient backend systems supporting complex business logic and data flows.</p>
+      </div>
+    </div>
+<section class="features-section">
+  <h2>My Key Features</h2>
+  
+  <div class="features-grid">
+
+    <div class="feature-card">
+      <div class="icon">🚀</div>
+      <h3>Fast Performance</h3>
+      <p>Optimized coding for <em>blazing fast</em> loading speeds.</p>
+      <div class="progress-bar">
+        <div class="progress" style="--progress: 90%;">90%</div>
+      </div>
+      <button class="toggle-btn">Learn More</button>
+      <div class="more-info">
+        I use best practices and optimized libraries to keep the user experience smooth and snappy.
+      </div>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">🎨</div>
+      <h3>Modern Design</h3>
+      <p>Clean and <em>responsive</em> UI design for all devices.</p>
+      <div class="progress-bar">
+        <div class="progress" style="--progress: 85%;">85%</div>
+      </div>
+      <button class="toggle-btn">Learn More</button>
+      <div class="more-info">
+        I craft pixel-perfect layouts using the latest CSS frameworks and design trends.
+      </div>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">⚙️</div>
+      <h3>Robust Backend</h3>
+      <p>Secure and <em>scalable</em> backend solutions with PHP & Laravel.</p>
+      <div class="progress-bar">
+        <div class="progress" style="--progress: 80%;">80%</div>
+      </div>
+      <button class="toggle-btn">Learn More</button>
+      <div class="more-info">
+        I ensure your applications are fast, reliable, and maintainable with clean backend code.
       </div>
     </div>
 
@@ -223,16 +266,17 @@
 </style>
 
 <script>
-  // Animate progress bars on page load
   window.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.progress').forEach(bar => {
-      const width = bar.style.getPropertyValue('--progress');
-      setTimeout(() => {
-        bar.style.width = width;
-      }, 300);
+      const styles = getComputedStyle(bar);
+      const width = styles.getPropertyValue('--progress').trim();
+      if (width) {
+        setTimeout(() => {
+          bar.style.width = width;
+        }, 300);
+      }
     });
 
-    // Toggle expandable info
     document.querySelectorAll('.toggle-btn').forEach(button => {
       button.addEventListener('click', () => {
         const card = button.closest('.feature-card');
@@ -242,6 +286,7 @@
     });
   });
 </script>
+
 
 
 
