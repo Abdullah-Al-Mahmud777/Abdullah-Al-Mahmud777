@@ -35,6 +35,216 @@
 
 ---
 
+<section class="features-section">
+  <h2>🚀 Key Features & Strengths</h2>
+  <div class="features-grid">
+
+  <div class="feature-card">
+      <div class="icon">💻</div>
+      <h3>Full-Stack Development</h3>
+      <p>Crafting robust and scalable web applications with <em>React</em> &amp; <em>Laravel</em>.</p>
+      <div class="progress-bar">
+        <div class="progress" style="--progress: 90%;">90%</div>
+      </div>
+      <button class="toggle-btn">Learn More</button>
+      <div class="more-info">
+        <p>Experienced in building both client and server sides, ensuring seamless integration and performance optimization.</p>
+      </div>
+    </div>
+
+  <div class="feature-card">
+      <div class="icon">🎨</div>
+      <h3>UI/UX Design</h3>
+      <p>Designing beautiful, responsive interfaces using <em>Tailwind CSS</em>, <em>Material UI</em>, and <em>Bootstrap</em>.</p>
+      <div class="progress-bar">
+        <div class="progress" style="--progress: 85%;">85%</div>
+      </div>
+      <button class="toggle-btn">Learn More</button>
+      <div class="more-info">
+        <p>Focused on user-centered design principles to create intuitive and engaging user experiences.</p>
+      </div>
+    </div>
+
+  <div class="feature-card">
+      <div class="icon">⚙️</div>
+      <h3>Backend Expertise</h3>
+      <p>Skilled in <em>PHP</em>, <em>Laravel</em>, <em>RESTful API</em> development, and database management.</p>
+      <div class="progress-bar">
+        <div class="progress" style="--progress: 80%;">80%</div>
+      </div>
+      <button class="toggle-btn">Learn More</button>
+      <div class="more-info">
+        <p>Building secure and efficient backend systems supporting complex business logic and data flows.</p>
+      </div>
+    </div>
+
+    <!-- Add more feature cards as needed -->
+
+  </div>
+
+  <div class="cta">
+    <a href="mailto:abdullahalmahmudmahmud777@gmail.com" class="btn-contact">Let's Collaborate!</a>
+  </div>
+</section>
+
+<style>
+  .features-section {
+    max-width: 900px;
+    margin: 50px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    color: #333;
+  }
+  .features-section h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #0A66C2;
+  }
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+  .feature-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(10, 102, 194, 0.15);
+    padding: 30px 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+    text-align: center;
+    position: relative;
+  }
+  .feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(10, 102, 194, 0.3);
+  }
+  .feature-card .icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #074e9c;
+  }
+  .feature-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  .feature-card em {
+    color: #0A66C2;
+    font-style: normal;
+    font-weight: 600;
+  }
+  /* Progress bar styles */
+  .progress-bar {
+    background: #e1e7f0;
+    border-radius: 20px;
+    margin: 20px 0;
+    height: 18px;
+    overflow: hidden;
+  }
+  .progress {
+    height: 100%;
+    background: #0A66C2;
+    width: 0;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    transition: width 2s ease;
+  }
+  /* Expandable info */
+  .more-info {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .feature-card.active .more-info {
+    max-height: 120px; /* enough for content */
+  }
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    color: #0A66C2;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  .toggle-btn:hover {
+    color: #074e9c;
+  }
+  /* CTA Button */
+  .cta {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .btn-contact {
+    background-color: #0A66C2;
+    color: white;
+    padding: 14px 40px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0 6px 12px rgba(10, 102, 194, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .btn-contact:hover {
+    background-color: #074e9c;
+    box-shadow: 0 10px 18px rgba(10, 102, 194, 0.6);
+  }
+  /* Responsive */
+  @media (max-width: 480px) {
+    .features-section h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    .feature-card {
+      padding: 25px 20px;
+    }
+    .feature-card h3 {
+      font-size: 1.3rem;
+    }
+  }
+</style>
+
+<script>
+  // Animate progress bars on page load
+  window.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.progress').forEach(bar => {
+      const width = bar.style.getPropertyValue('--progress');
+      setTimeout(() => {
+        bar.style.width = width;
+      }, 300);
+    });
+
+    // Toggle expandable info
+    document.querySelectorAll('.toggle-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const card = button.closest('.feature-card');
+        card.classList.toggle('active');
+        button.textContent = card.classList.contains('active') ? 'Show Less' : 'Learn More';
+      });
+    });
+  });
+</script>
+
+
+
 ## 📫 Contact Me
 
 Feel free to reach out for project collaboration or just to say hi!  
