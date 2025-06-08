@@ -65,24 +65,27 @@
       </div>
     </div>
 
-  <div class="feature-card">
+   <div class="feature-card">
       <div class="icon">⚙️</div>
       <h3>Backend Expertise</h3>
       <p>Skilled in <em>PHP</em>, <em>Laravel</em>, <em>RESTful API</em> development, and database management.</p>
       <div class="progress-bar">
-        <div class="progress" style="--progress: 60%;">80%</div>
+        <div class="progress" style="--progress: 80%;">80%</div>
       </div>
       <button class="toggle-btn">Learn More</button>
       <div class="more-info">
         <p>Building secure and efficient backend systems supporting complex business logic and data flows.</p>
       </div>
     </div>
+
+  </div> <!-- features-grid -->
+</section> <!-- features-section -->
+
 <section class="features-section">
   <h2>My Key Features</h2>
-  
   <div class="features-grid">
 
-    <div class="feature-card">
+  <div class="feature-card">
       <div class="icon">🚀</div>
       <h3>Fast Performance</h3>
       <p>Optimized coding for <em>blazing fast</em> loading speeds.</p>
@@ -95,7 +98,7 @@
       </div>
     </div>
 
-    <div class="feature-card">
+  <div class="feature-card">
       <div class="icon">🎨</div>
       <h3>Modern Design</h3>
       <p>Clean and <em>responsive</em> UI design for all devices.</p>
@@ -108,7 +111,7 @@
       </div>
     </div>
 
-    <div class="feature-card">
+  <div class="feature-card">
       <div class="icon">⚙️</div>
       <h3>Robust Backend</h3>
       <p>Secure and <em>scalable</em> backend solutions with PHP & Laravel.</p>
@@ -121,9 +124,7 @@
       </div>
     </div>
 
-    <!-- Add more feature cards as needed -->
-
-  </div>
+  </div> <!-- features-grid -->
 
   <div class="cta">
     <a href="mailto:abdullahalmahmudmahmud777@gmail.com" class="btn-contact">Let's Collaborate!</a>
@@ -180,123 +181,77 @@
   }
   .feature-card em {
     color: #0A66C2;
-    font-style: normal;
     font-weight: 600;
   }
-  /* Progress bar styles */
   .progress-bar {
-    background: #e1e7f0;
-    border-radius: 20px;
-    margin: 20px 0;
-    height: 18px;
+    background: #e1e7f1;
+    border-radius: 10px;
+    height: 10px;
+    margin: 20px 0 15px;
     overflow: hidden;
   }
   .progress {
     height: 100%;
     background: #0A66C2;
-    width: 0;
-    border-radius: 20px;
+    width: var(--progress);
+    transition: width 0.5s ease;
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 8px;
+    font-size: 0.8rem;
     color: white;
     font-weight: 600;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 10px;
-    box-sizing: border-box;
-    transition: width 2s ease;
-  }
-  /* Expandable info */
-  .more-info {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease;
-    font-size: 0.9rem;
-    color: #333;
-    margin-top: 10px;
-    text-align: left;
-  }
-  .feature-card.active .more-info {
-    max-height: 120px; /* enough for content */
+    line-height: 10px;
   }
   .toggle-btn {
-    background: transparent;
+    background: #0A66C2;
+    color: white;
     border: none;
-    color: #0A66C2;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
     cursor: pointer;
-    font-weight: 600;
-    margin-top: 10px;
-    text-decoration: underline;
+    margin-top: 8px;
   }
   .toggle-btn:hover {
-    color: #074e9c;
+    background: #074e9c;
   }
-  /* CTA Button */
+  .more-info {
+    display: none;
+    margin-top: 15px;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  .feature-card.active .more-info {
+    display: block;
+  }
   .cta {
-    margin-top: 50px;
     text-align: center;
+    margin-top: 50px;
   }
   .btn-contact {
-    background-color: #0A66C2;
+    display: inline-block;
+    background: #0A66C2;
     color: white;
-    padding: 14px 40px;
+    padding: 15px 40px;
     font-size: 1.2rem;
-    border-radius: 30px;
-    text-decoration: none;
     font-weight: 700;
-    box-shadow: 0 6px 12px rgba(10, 102, 194, 0.4);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background 0.3s ease;
   }
   .btn-contact:hover {
-    background-color: #074e9c;
-    box-shadow: 0 10px 18px rgba(10, 102, 194, 0.6);
-  }
-  /* Responsive */
-  @media (max-width: 480px) {
-    .features-section h2 {
-      font-size: 2rem;
-      margin-bottom: 30px;
-    }
-    .feature-card {
-      padding: 25px 20px;
-    }
-    .feature-card h3 {
-      font-size: 1.3rem;
-    }
+    background: #074e9c;
   }
 </style>
 
 <script>
-  window.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.progress').forEach(bar => {
-      const styles = getComputedStyle(bar);
-      const width = styles.getPropertyValue('--progress').trim();
-      if (width) {
-        setTimeout(() => {
-          bar.style.width = width;
-        }, 300);
-      }
-    });
-
-    document.querySelectorAll('.toggle-btn').forEach(button => {
-      button.addEventListener('click', () => {
-        const card = button.closest('.feature-card');
-        card.classList.toggle('active');
-        button.textContent = card.classList.contains('active') ? 'Show Less' : 'Learn More';
-      });
+  document.querySelectorAll('.toggle-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.feature-card');
+      card.classList.toggle('active');
+      btn.textContent = card.classList.contains('active') ? 'Show Less' : 'Learn More';
     });
   });
 </script>
-
-
-
-
-## 📫 Contact Me
-
-Feel free to reach out for project collaboration or just to say hi!  
-📧 **Email:** [abdullahalmahmudmahmud777@gmail.com](mailto:abdullahalmahmudmahmud777@gmail.com)  
-🌐 **Website:** [https://shuvo.tohidur.com](https://shuvo.tohidur.com)
-
----
-
-
-
