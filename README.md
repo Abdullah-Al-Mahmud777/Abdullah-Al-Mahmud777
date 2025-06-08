@@ -3,48 +3,49 @@
 ### Web Developer | Passionate Coder | Lifelong Learner
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdullah-al-mahmud-357566233/)
+[![Visit Website](https://img.shields.io/badge/Visit-Website-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://shuvo.tohidur.com/)
 
 ---
 
 ## 🛠 Skills
 
-<span style="display: inline-block; background-color:#f06529; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">HTML</span>
-<span style="display: inline-block; background-color:#264de4; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">CSS</span>
-<span style="display: inline-block; background-color:#f0db4f; color: black; padding: 5px 12px; border-radius: 5px; margin: 3px;">JavaScript</span>
-<span style="display: inline-block; background-color:#563d7c; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">Bootstrap</span>
-<span style="display: inline-block; background-color:#38b2ac; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">Tailwind CSS</span>
-<span style="display: inline-block; background-color:#0078d7; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">Material-UI</span>
-<span style="display: inline-block; background-color:#61dafb; color: black; padding: 5px 12px; border-radius: 5px; margin: 3px;">React</span>
-<span style="display: inline-block; background-color:#007bff; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">React Bootstrap</span>
-<span style="display: inline-block; background-color:#00599c; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">C++</span>
-<span style="display: inline-block; background-color:#a8b9cc; color: black; padding: 5px 12px; border-radius: 5px; margin: 3px;">C</span>
-<span style="display: inline-block; background-color:#777bb3; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">PHP</span>
-<span style="display: inline-block; background-color:#f05340; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">Laravel</span>
-<span style="display: inline-block; background-color:#3776ab; color: white; padding: 5px 12px; border-radius: 5px; margin: 3px;">Python</span>
+<table>
+  <tr>
+    <td><img src="https://img.shields.io/badge/HTML-F06529?style=for-the-badge&logo=html5&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/CSS-264de4?style=for-the-badge&logo=css3&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=black"/></td>
+    <td><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Material--UI-0078D7?style=for-the-badge&logo=mui&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/></td>
+    <td><img src="https://img.shields.io/badge/React Bootstrap-007BFF?style=for-the-badge&logo=bootstrap&logoColor=white"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/></td>
+    <td><img src="https://img.shields.io/badge/PHP-777BB3?style=for-the-badge&logo=php&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Laravel-F05340?style=for-the-badge&logo=laravel&logoColor=white"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/></td>
+  </tr>
+</table>
 
 ---
 
 ## 📫 Contact Me
 
 Feel free to reach out for project collaboration or just to say hi!  
-✉️ Email: **abdullahalmahmudmahmud777@gmail.com**
+📧 **Email:** [abdullahalmahmudmahmud777@gmail.com](mailto:abdullahalmahmudmahmud777@gmail.com)  
+🌐 **Website:** [https://shuvo.tohidur.com](https://shuvo.tohidur.com)
 
 ---
 
-## 💬 Contact Form Example (for your website)
+## 💬 Contact Form Example (HTML)
 
-If you want to add a contact form on your own site, here’s a simple example you can use:
+You can copy this and paste it into your website’s contact page:
 
 ```html
-<form action="mailto:abdullahalmahmudmahmud777@gmail.com" method="POST" enctype="text/plain">
-  <label for="name">Name:</label><br />
-  <input type="text" id="name" name="name" required /><br /><br />
-  
-  <label for="email">Email:</label><br />
-  <input type="email" id="email" name="email" required /><br /><br />
-  
-  <label for="message">Message:</label><br />
-  <textarea id="message" name="message" rows="5" required></textarea><br /><br />
-  
-  <button type="submit">Send</button>
-</form>
+
