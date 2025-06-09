@@ -1,6 +1,6 @@
 # Abdullah-Al-Mahmud 👨‍💻
 
-##### Web Developer | Passionate Coder | Lifelong Learner
+### Web Developer | Passionate Coder | Lifelong Learner
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdullah-al-mahmud-357566233/)
 [![Visit Website](https://img.shields.io/badge/Visit-Website-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://shuvo.tohidur.com/)
