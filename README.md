@@ -1,4 +1,4 @@
-# Abdullah-Al-Mahmud 👨‍💻
+##### Abdullah-Al-Mahmud 👨‍💻
 
 ### Web Developer | Passionate Coder | Lifelong Learner
 
@@ -44,7 +44,7 @@
       <h3>Full-Stack Development</h3>
       <p>Crafting robust and scalable web applications with <em>React</em> &amp; <em>Laravel</em>.</p>
       <div class="progress-bar">
-        <div class="progress" style="--progress: 90%;">70%</div>
+        <div class="progress" style="--progress: 90%;">50%</div>
       </div>
       <button class="toggle-btn">Learn More</button>
       <div class="more-info">
@@ -70,7 +70,7 @@
       <h3>Backend Expertise</h3>
       <p>Skilled in <em>PHP</em>, <em>Laravel</em>, <em>RESTful API</em> development, and database management.</p>
       <div class="progress-bar">
-        <div class="progress" style="--progress: 60%;">60%</div>
+        <div class="progress" style="--progress: 60%;">50%</div>
       </div>
       <button class="toggle-btn">Learn More</button>
       <div class="more-info">
