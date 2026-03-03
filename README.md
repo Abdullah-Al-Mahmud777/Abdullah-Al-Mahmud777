@@ -31,6 +31,7 @@
 <tr>
   <td><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/></td>
   <td><img src="https://img.shields.io/badge/Laravel-F05340?style=for-the-badge&logo=laravel&logoColor=white"/></td>
+  <td><img src="https://img.shields.io/badge/WordPress-000000?style=for-the-badge&logo=wordpress&logoColor=white"/></td>
 </tr>
 </table>
 
