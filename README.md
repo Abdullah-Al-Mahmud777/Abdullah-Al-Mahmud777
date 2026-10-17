@@ -49,20 +49,10 @@ Solution-driven Software Engineer who builds **efficient, scalable and maintaina
 ### 🔹 Software Engineer — Odyssey Tech
  London, UK (Remote) &nbsp;·&nbsp; 🗓 May 2024 – April 2025
 
-- Built scalable, maintainable software solutions aligned with business and user requirements
-- Designed, developed, tested and integrated **RESTful APIs** and backend services
-- Improved application performance, reliability and overall functionality
-- Collaborated with engineering and cross-functional teams to troubleshoot and deliver solutions
-- Resolved software bugs and API issues while maintaining code quality and system stability
 
 ### 🔹 Frontend Developer — RajFlix Solutions
 Rajshahi, Bangladesh &nbsp;·&nbsp; 🗓 April 2023 – March 2024
 
-- Developed responsive, high-performance web interfaces with modern frontend technologies
-- Integrated **RESTful APIs** for dynamic data and seamless frontend-backend communication
-- Implemented modern UI/UX with a focus on usability, accessibility and responsive layouts
-- Optimized page loading speed and responsiveness across devices
-- Fixed UI bugs and integration issues to improve overall user experience
 
 ---
 
