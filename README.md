@@ -22,12 +22,14 @@
 
 ## About Me
 
-Solution-driven Software Engineer who builds **efficient, scalable and maintainable** applications. I work across REST APIs, database systems, system design and **AI-integrated solutions**, with a focus on clean code, secure backends and fast, user-focused interfaces.
+Solution-driven **Software Engineer** focused on designing, developing, and delivering **scalable, secure, and maintainable software solutions**. Experienced across full-stack development, backend architecture, RESTful APIs, database design, system integration, and AI-powered applications. Passionate about writing clean code, solving complex technical challenges, and building reliable products that deliver real-world value.
 
-- Currently building AI-powered products with **OpenAI** and **Gemini** APIs
-- Deepening my knowledge of **system design** and **software design patterns**
-- Previously worked remotely with a London-based team at **Odyssey Tech**
-- Ask me about **MERN, Next.js, REST API design, prompt engineering**
+- Currently developing AI-powered applications using **OpenAI and Google Gemini APIs**
+- Focused on **system architecture, system design, database optimization, and software design patterns**
+- Experienced in building full-stack applications using **MERN, Next.js, Django, FastAPI, and ASP.NET Core**
+- Previously collaborated remotely with a **London-based software development team at Odyssey Tech**
+- Interested in **AI engineering, scalable backend systems, API architecture, and modern software development**
+- Ask me about **MERN Stack, Next.js, Node.js, REST API design, database architecture, and AI integration**
 
 ---
 
