@@ -59,10 +59,13 @@ Rajshahi, Bangladesh &nbsp;·&nbsp; 🗓 April 2023 – March 2024
 
 ## 🏆 Achievements & Hackathons
 
+## 🏆 Achievements & Hackathons
+
 | Event | Result | Highlights |
 |:--|:--:|:--|
-| **NEXORA Global Hackathon 2026** | 🥇 **Winner** | second place at a global hackathon |
+| **NEXORA Global Hackathon 2026** | 🥈 **2nd Place** | Secured second place in a global hackathon |
 | **USAII Global AI Hackathon 2026** | 🏆 **Finalist** | Built an AI-powered solution for wetland monitoring and conservation |
+| **ForgeHacks Online 2026** | 🏆 **Winner – All Participants** | Recognized as a winner among all participants in an online hackathon |
 
 ---
 
